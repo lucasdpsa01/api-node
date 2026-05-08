@@ -2,7 +2,7 @@ import { Sequelize } from 'sequelize'
 
 dotenv.config(); 
 
-const sequelize = new Sequelize(postgres://postgres:123456@localhost:5432/user, {
+const sequelize = new Sequelize('postgres://postgres:123456@localhost:5432/user', {
     dialect: 'postgres',
     logging: false,
 });
