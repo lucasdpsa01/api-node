@@ -2,7 +2,7 @@ import { Sequelize } from 'sequelize'
 
 dotenv.config(); 
 
-const sequelize = new Sequelize('postgres://postgres:123456@localhost:5432/user', {
+const sequelize = new Sequelize('postgres://postgres:123456@localhost:5432/user', { // esse link e do meu banco de dados, crie o de vcs e colem ai
     dialect: 'postgres',
     logging: false,
 });
